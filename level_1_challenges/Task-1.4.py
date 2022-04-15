@@ -4,8 +4,11 @@ def square(number):
 
     while i <= number:
         print('#'*number)
-    
         i +=1
-
+        
 square(8)
+        
+
+
+
 
