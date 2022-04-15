@@ -2,8 +2,6 @@ def triangle(number):
 
     i = 1
 
-
-    
     if number < 0 :
         while number <= 0:
             print('#'*((-1)*number))
