@@ -7,5 +7,5 @@ def square(number):
 
         i +=1
 
-square()
+
 
