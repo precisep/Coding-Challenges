@@ -13,7 +13,7 @@ def word_vowels(word):
 		else:
 			None
 
-	return print("Vowels :", ', '.join(set(vowel_list)))
+	return "Vowels :", ', '.join(set(vowel_list))
 		
 
 
