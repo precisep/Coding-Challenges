@@ -1,6 +1,3 @@
-from pyrsistent import v
-
-
 def word_vowels(word):
 	
 	vowels = ['a','e','i','o','u']
@@ -14,7 +11,3 @@ def word_vowels(word):
 			None
 
 	return "Vowels :", ', '.join(set(vowel_list))
-		
-
-
-
