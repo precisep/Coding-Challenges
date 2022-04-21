@@ -1,6 +1,3 @@
-from turtle import clear
-
-
 def find_maximum_number(first_number, second_number,third_number):
 
     numbers = [first_number,second_number,third_number]
