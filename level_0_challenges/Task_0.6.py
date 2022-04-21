@@ -23,7 +23,7 @@ def bonus_find_maximum_number(*args):
             if numbers[j] > numbers[j+1]:
                numbers[j], numbers[j+1] = numbers[j+1],numbers[j] #swap the numbers
 
-    return print(numbers[-1])
+    return numbers[-1]
   
 
 
