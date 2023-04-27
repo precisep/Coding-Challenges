@@ -1,8 +1,8 @@
-def evenOrOdd(num):
+def even_or_odd(num):
 
     if num %2 == 0:
         return print('even')
     else:
         return print('odd')
-    
-evenOrOdd(17)
+
+even_or_odd(17)
