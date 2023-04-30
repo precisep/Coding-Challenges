@@ -1,9 +1,7 @@
 def hello(word):
-	if type(word) == 'string':
+	if type(word) == 'str':
 		print('Please enter a string')
 	else:
-		greet = print('Hello',word+'!')
-
-	return greet
+		print('Hello',f'{word}!')
 
 hello('Precise')
