@@ -6,7 +6,7 @@ def word_vowels(word):
 
 	for char in word:
 		if char in vowels:
-			vowel_list.append(i)
+			vowel_list.append(char)
 		else:
 			continue
 
