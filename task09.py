@@ -4,10 +4,10 @@ def word_vowels(word):
 	word = word.lower()
 	vowel_list = []
 
-	for i in word:
-		if i in vowels:
+	for char in word:
+		if char in vowels:
 			vowel_list.append(i)
 		else:
-			None
+			continue
 
-	return print("Vowels :", ', '.join(set(vowel_list)))
+	print("Vowels :", ', '.join(set(vowel_list)))
