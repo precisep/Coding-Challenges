@@ -4,5 +4,5 @@ def even_or_odd(num):
     else:
         print("odd")
 
-
-even_or_odd(17)
+if __name__ == "__main__":
+    even_or_odd(17)
