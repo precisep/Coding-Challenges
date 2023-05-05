@@ -1,8 +1,6 @@
 def hello(word):
-    if type(word) == "str":
-        print("Please enter a string")
-    else:
-        print("Hello", f"{word}!")
 
+    print("Hello", f"{word}!")
 
-hello("Precise")
+if __name__ == "__main__":
+    hello("Precise")
