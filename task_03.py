@@ -1,6 +1,6 @@
-def hello(word):
+def hello(name):
 
-    print("Hello", f"{word}!")
+    print(f"Hello,{name}!")
 
 if __name__ == "__main__":
     hello("Precise")
