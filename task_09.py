@@ -11,6 +11,6 @@ def word_vowels(word):
 
     print("Vowels:", ", ".join(set(vowel_list)))
 
+
 if __name__ == "__main__":
-    word_vowels('Umuzi')
-    
+    word_vowels("Umuzi")

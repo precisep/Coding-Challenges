@@ -8,6 +8,6 @@ def common_characters(string_1, string_2):
 
     print("Common letters:", ", ".join(set(common_letters)))
 
-if __name__ == "__main__":
-    common_characters('amazone','emzimkhulu')
 
+if __name__ == "__main__":
+    common_characters("amazone", "emzimkhulu")
