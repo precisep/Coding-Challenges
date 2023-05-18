@@ -6,8 +6,6 @@ def word_vowels(word):
     for char in word:
         if char in VOWELS:
             vowel_list.append(char)
-        else:
-            continue
 
     print("Vowels:", ", ".join(set(vowel_list)))
 
