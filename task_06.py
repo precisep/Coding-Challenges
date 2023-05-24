@@ -9,4 +9,4 @@ def find_maximum_number(*args):
 
 if __name__ == "__main__":
     print(f"Maximum number: {find_maximum_number(1,22,3)}")
-    print(f"Bonus function maximum number: {find_maximum_number(56,12,89,0,-4)}")
+    print(f"Maximum number: {find_maximum_number(56,12,89,0,-4)}")
