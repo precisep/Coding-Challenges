@@ -10,7 +10,7 @@ def triangle_area(first_side, second_side, third_side):
         )
     ) ** (1 / 2)
 
-    return round(area, 2)
+    return area
 
 
 if __name__ == "__main__":

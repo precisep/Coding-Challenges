@@ -12,12 +12,18 @@ def time_conversion(minutes):
     else:
         minute_str = "minutes"
 
-    if hours:
-        return f"{hours} {hour_str}, {minutes} {minute_str}"
-    else:
-        return f"{minutes} {minute_str}"
+    if hours == 0:
+        hour_str = "hour"
+    if minutes == 0:
+        minute_str = "minute"
+    
+
+    return f"{hours} {hour_str}, {minutes} {minute_str}"
+   
 
 
 if __name__ == "__main__":
     print(time_conversion(71))
     print(time_conversion(133))
+    print(time_conversion(0))
+    print(time_conversion(0.5))

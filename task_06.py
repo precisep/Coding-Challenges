@@ -1,10 +1,5 @@
-def find_maximum_number(first_number, second_number, third_number, *args):
-    maximum_num = first_number
-
-    if second_number > maximum_num:
-        maximum_num = second_number
-    if third_number > maximum_num:
-        maximum_num = third_number
+def find_maximum_number(*args):
+    maximum_num = float('-inf')
 
     for num in args:
         if num > maximum_num:
