@@ -14,7 +14,8 @@ def time_conversion(minutes):
 
 if __name__ == "__main__":
     print(time_conversion(71))
+    print(time_conversion(133))
     print(time_conversion(240))
     print(time_conversion(0))
     print(time_conversion(0.5))
-    print(time_conversion(60))
+   
