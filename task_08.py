@@ -6,7 +6,7 @@ def time_conversion(minutes):
     minute_str = "minute" if minutes == 1 else "minutes"
 
     hour_str = "hour" if hours == 0 else hour_str
-    minute_str = "minute" if minutes == 0 else minute_str
+    minute_str = "minute" if minutes == 0 and hours == 0 else minute_str
 
     return f"{hours} {hour_str}, {minutes} {minute_str}"
    
@@ -14,6 +14,7 @@ def time_conversion(minutes):
 
 if __name__ == "__main__":
     print(time_conversion(71))
-    print(time_conversion(133))
+    print(time_conversion(240))
     print(time_conversion(0))
     print(time_conversion(0.5))
+    print(time_conversion(60))
